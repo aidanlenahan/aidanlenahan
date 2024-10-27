@@ -1,16 +1,14 @@
-# Hi there, I'm [Your Name]! 👋
+# Hi there, I'm Aidan! 👋
 
-Welcome to my GitHub profile! I'm a [short description about yourself, e.g., "software developer," "data science enthusiast," "open-source contributor"], passionate about creating impactful software, exploring new technologies, and sharing knowledge.  
+Welcome to my GitHub profile! I'm a programmer, homelabber, Cyberpatriot competitor, Linux enthusiast, and much more, while also a junior in high school.  
 
 ---
 
-### 🌟 About Me
+### About Me
 
-- 🔭 I’m currently working on **[Project Name or Description]**
-- 🌱 I’m learning **[Technologies/Languages/Concepts]**
-- 💡 I'm interested in **[Your Interests, e.g., machine learning, full-stack development]**
-- 🤝 I’m looking to collaborate on **[Projects or Topics]**
-- 💬 Ask me about **[Areas of expertise or recent projects]**
+- I’m currently working on **[Cyberpatriot scripting](https://github.com/aidanlenahan/cyberpatriot**
+- I’m learning **Java, HTML, CSS, and Python.**
+- I'm interested in **machine learning, web developement, open source projects, and self-hosting.**
 
 ---
 
