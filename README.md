@@ -6,7 +6,7 @@ Welcome to my GitHub profile! I'm a programmer, homelabber, Cyberpatriot competi
 
 ### About Me
 
-- I’m currently working on **[Cyberpatriot scripting](https://github.com/aidanlenahan/cyberpatriot**
+- I’m currently working on **[Cyberpatriot scripting](https://github.com/aidanlenahan/cyberpatriot)**
 - I’m learning **Java, HTML, CSS, and Python.**
 - I'm interested in **machine learning, web developement, open source projects, and self-hosting.**
 
