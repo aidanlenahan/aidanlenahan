@@ -1,4 +1,4 @@
-# Hi there, I'm Aidan! 👋
+# Hi, I'm Aidan
 
 Welcome to my GitHub profile! I'm a programmer, homelabber, Cyberpatriot competitor, Linux enthusiast, and much more, while also a junior in high school.  
 
