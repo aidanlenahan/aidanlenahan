@@ -1,9 +1,7 @@
-"""Builds the README header images.
-
-img/avatar.svg              round headshot with a hairline ring, like GitHub's own avatar
-img/stats-light.svg / -dark one-line stats strip styled like the profile's "followers" line
+"""Builds img/stats-light.svg and img/stats-dark.svg: a one-line stats strip
+styled like the "followers" line on a GitHub profile.
 """
-import base64, json, os, urllib.request, datetime
+import json, os, urllib.request, datetime
 
 USER = "aidanlenahan"
 TOKEN = os.environ["GITHUB_TOKEN"]
@@ -59,17 +57,6 @@ stats = [
 ]
 stats = [s for s in stats if s[1]]  # GitHub hides zero counts; so does this
 
-# Avatar: GitHub draws avatars as circles with a 1px translucent ring.
-S = 160
-photo = base64.b64encode(open(os.path.join(IMG, "headshot.webp"), "rb").read()).decode()
-with open(os.path.join(IMG, "avatar.svg"), "w", encoding="utf-8", newline="\n") as f:
-    f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{S}" height="{S}" viewBox="0 0 {S} {S}">\n'
-            f'<title>Aidan Lenahan</title>\n'
-            f'<clipPath id="c"><circle cx="{S/2}" cy="{S/2}" r="{S/2}"/></clipPath>\n'
-            f'<image href="data:image/webp;base64,{photo}" width="{S}" height="{S}" clip-path="url(#c)"/>\n'
-            f'<circle cx="{S/2}" cy="{S/2}" r="{S/2 - 0.5}" fill="none" stroke="rgba(128,128,128,0.25)"/>\n'
-            f'</svg>\n')
-
 # Stats strip: icon, bold number, muted label, separated by middle dots.
 SIZE, GAP, H = 14, 6, 20
 def strip(fg, muted):
@@ -92,4 +79,4 @@ def strip(fg, muted):
 for name, colors in {"light": ("#1f2328", "#59636e"), "dark": ("#f0f6fc", "#9198a1")}.items():
     with open(os.path.join(IMG, f"stats-{name}.svg"), "w", encoding="utf-8", newline="\n") as f:
         f.write(strip(*colors))
-print("wrote avatar.svg, stats-light.svg, stats-dark.svg")
+print("wrote stats-light.svg, stats-dark.svg")

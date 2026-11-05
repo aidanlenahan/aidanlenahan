@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="img/avatar.svg" alt="Aidan Lenahan" width="160" height="160">
-</p>
-
 <h1 align="center">Aidan Lenahan</h1>
 
 <p align="center">Computer science student at Stevens Institute of Technology, class of 2030, from New Jersey.</p>
