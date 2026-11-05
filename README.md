@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="img/headshot.webp" alt="Aidan Lenahan" width="150" height="150">
+  <img src="img/avatar.svg" alt="Aidan Lenahan" width="160" height="160">
 </p>
+
+<h1 align="center">Aidan Lenahan</h1>
+
+<p align="center">Computer science student at Stevens Institute of Technology, class of 2030, from New Jersey.</p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aidanlenahan&theme=github_dark">
-    <img alt="GitHub stats for aidanlenahan" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aidanlenahan&theme=github">
+    <source media="(prefers-color-scheme: dark)" srcset="img/stats-dark.svg">
+    <img src="img/stats-light.svg" alt="GitHub stats for aidanlenahan">
   </picture>
 </p>
-
-# Aidan Lenahan
-
-Computer science student at Stevens Institute of Technology, class of 2030, from New Jersey.
 
 Most of what I build is for people I know: a school repair team, two nonprofits, my friend group, and the clients of my dog walking business. Outside of that I play CTFs and run a Proxmox homelab.
 
