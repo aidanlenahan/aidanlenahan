@@ -17,43 +17,26 @@ Most of what I build is for people I know: a school repair team, two nonprofits,
 
 ## Projects
 
-**[GEM](https://github.com/aidanlenahan/gem)** ([live](https://gem.aidanlenahan.com))\
-A PWA that gets friend group plans out of the group chat. Private groups, events, RSVPs, and live updates over Socket.IO. TypeScript, React, Fastify, PostgreSQL.
+<p>
+  <a href="https://github.com/aidanlenahan/gem"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/gem-dark.svg"><img alt="gem" src="img/pins/gem-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/aidanlenahan/pharmreach"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/pharmreach-dark.svg"><img alt="pharmreach" src="img/pins/pharmreach-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/aidanlenahan/bucit"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/bucit-dark.svg"><img alt="bucit" src="img/pins/bucit-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/aidanlenahan/secdiagdrop"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/secdiagdrop-dark.svg"><img alt="secdiagdrop" src="img/pins/secdiagdrop-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/aidanlenahan/iogame"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/iogame-dark.svg"><img alt="iogame" src="img/pins/iogame-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/aidanlenahan/cyberpatriot"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/cyberpatriot-dark.svg"><img alt="cyberpatriot" src="img/pins/cyberpatriot-light.svg" width="49%"></picture></a>
+</p>
+<p>
+  <a href="https://github.com/aidanlenahan/emmystrong"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/emmystrong-dark.svg"><img alt="emmystrong" src="img/pins/emmystrong-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/aidanlenahan/rbrgymnastics"><picture><source media="(prefers-color-scheme: dark)" srcset="img/pins/rbrgymnastics-dark.svg"><img alt="rbrgymnastics" src="img/pins/rbrgymnastics-light.svg" width="49%"></picture></a>
+</p>
 
-**[PharmReach](https://github.com/aidanlenahan/pharmreach)** ([live](https://pharmreach.tech), HackRU 2026)\
-Built in 24 hours. You search for a medication and see which nearby pharmacies stock it, with price and location, for people who live in pharmacy deserts. React, TypeScript, Python, Gemini, OpenStreetMap, OpenTripPlanner.
+Live: [GEM](https://gem.aidanlenahan.com) · [PharmReach](https://pharmreach.tech) · [BucIT](https://bucit.alenahan.net) · [iogame demo](https://iogame.alenahan.net) · [CyberPatriot guides](https://cyberpatriot.alenahan.net) · [Emmy Strong](https://emmy-strong.org) · [Gymnastics Excellence Fund](https://rbrgymnastics.com)
 
-**[BucIT](https://github.com/aidanlenahan/bucit)** ([live](https://bucit.alenahan.net))\
-Ticketing, self-service, and inventory for BucIT, the student Chromebook repair team at Red Bank Regional High School. It replaced their paper tickets. PHP, MySQL, Apache.
-
-**[secdiagdrop](https://github.com/aidanlenahan/secdiagdrop)** ([write-up](https://aidanlenahan.com/blog/articles/secdiagdrop))\
-PowerShell maintenance and security checks for the shared Windows machines at a nonprofit I volunteered with, so I stopped doing the same cleanup by hand on each one. A diagnostic upload waits for my approval by email, and the machines never hold credentials. Google Apps Script runs the backend.
-
-**[Dog walking site](https://github.com/aidanlenahan/dogs)** ([live](https://dogs.aidanlenahan.com))\
-The site for my dog walking business: booking, service packages, testimonials, and the area I cover. HTML, CSS, JavaScript.
-
-**[Emmy Strong Foundation](https://github.com/aidanlenahan/emmystrong)** ([live](https://emmy-strong.org))\
-Site for a nonprofit that works to find a bone marrow match for each person who needs a transplant. I built it to raise awareness and bring in donors on a small budget.
-
-**[Gymnastics Excellence Fund](https://github.com/aidanlenahan/rbrgymnastics)** ([live](https://rbrgymnastics.com))\
-Site for the nonprofit that pays for Red Bank Regional's gymnastics team. I also ran its SEO, and the fund raised over $2,400 that year.
-
-**Homelab**\
-Proxmox VMs and LXC containers, a NAS, Home Assistant, a VPN, Ubiquiti networking, and monitoring. I use it to learn the tools IT teams run in production.
-
-**[Pantry lighting](https://aidanlenahan.com/blog/articles/pantry-lighting.html)**\
-A hardware build: a magnetic reed switch on the pantry door triggers a 12V relay that powers LED strips.
-
-**[CyberPatriot hardening guides](https://github.com/aidanlenahan/cyberpatriot)** ([site](https://cyberpatriot.alenahan.net))\
-Windows and Linux hardening notes and scripts from my years as a CyberPatriot competitor. PowerShell, Bash.
-
-**[RBR CTF](https://github.com/aidanlenahan/rbrctf)** ([platform](https://aidanlenahan.github.io/rbrctf/ctf))\
-A CTFd instance I set up and ran at Red Bank Regional, with dozens of challenges I wrote for other students.
-
-**[iogame](https://github.com/aidanlenahan/iogame)** ([demo](https://iogame.alenahan.net))\
-My attempt at a multiplayer territory game in the style of OpenFront: claim tiles, fight a bot, build cities and ports. JavaScript, PixiJS, Node.js, Redis, Docker.
-
-Smaller projects and experiments live at [alenahan.net](https://alenahan.net).
+Away from GitHub I run a Proxmox homelab (VMs, LXC containers, a NAS, Home Assistant, Ubiquiti networking) and built [door-triggered pantry lighting](https://aidanlenahan.com/blog/articles/pantry-lighting.html) from a reed switch and a 12V relay. Smaller projects live at [alenahan.net](https://alenahan.net).
 
 ## Work
 
