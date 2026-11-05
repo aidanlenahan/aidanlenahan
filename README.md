@@ -1,15 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/sidebar-dark.svg">
+  <img src="img/sidebar-light.svg" alt="Aidan Lenahan, with GitHub stats" width="150" align="right">
+</picture>
+
 # Aidan Lenahan
-
-<p align="center">
-  <img src="img/headshot.webp" alt="Aidan Lenahan" width="150" height="150">
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aidanlenahan&theme=github_dark">
-    <img alt="GitHub stats for aidanlenahan" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aidanlenahan&theme=github">
-  </picture>
-</p>
 
 Computer science student at Stevens Institute of Technology, class of 2030, from New Jersey.
 
