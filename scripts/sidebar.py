@@ -57,6 +57,7 @@ stats = [
     ("repo", d["repositories"]["totalCount"], "public repos"),
     ("star", sum(n["stargazerCount"] for n in d["repositories"]["nodes"]), "stars"),
 ]
+stats = [s for s in stats if s[1]]  # GitHub hides zero counts; so does this
 
 # Avatar: GitHub draws avatars as circles with a 1px translucent ring.
 S = 160
