@@ -80,10 +80,10 @@ def strip(fg, muted):
         parts.append(f'<path transform="translate({x:.1f},2)" fill="{muted}" d="{ICONS[icon]}"/>')
         x += 16 + GAP
         num = f"{n:,}"
-        parts.append(f'<text x="{x:.1f}" y="15" font-size="{SIZE}" font-weight="600" fill="{fg}">{num}</text>')
-        x += text_width(num, SIZE, bold=True) + 4
-        parts.append(f'<text x="{x:.1f}" y="15" font-size="{SIZE}" fill="{muted}">{label}</text>')
-        x += text_width(label, SIZE)
+        # One text run, so the renderer places the label right after the number.
+        parts.append(f'<text x="{x:.1f}" y="15" font-size="{SIZE}" fill="{muted}">'
+                     f'<tspan font-weight="600" fill="{fg}">{num}</tspan> {label}</text>')
+        x += text_width(f"{num} {label}", SIZE)
     w = int(x + 4)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{H}" viewBox="0 0 {w} {H}" font-family="{FONT}">\n'
             f'<title>GitHub stats</title>\n' + "\n".join(parts) + "\n</svg>\n")
